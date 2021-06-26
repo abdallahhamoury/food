@@ -1,31 +1,31 @@
 alert('HELLO IN OUR FOOD WORLD')
 
-let user = prompt ('wahts your name')
-console.log(user)
-alert('wlcome ' + user + "  to my website"  )
+let userName = prompt ('what\'s your name')
+console.log(userName)
+alert('wlcome ' + userName + "  to my website"  )
 
 
 
-let userIn = prompt('Are you prefer meat or chicken?')
+let userPrefer = prompt('Are you prefer meat or chicken?')
 
-if (userIn = "meat") {
+if (userPrefer = "meat") {
     alert("ymee")
 }
-else if (userIn = "chicken") {
+else if (userPrefer = "chicken") {
     alert("me too")
 }
 
-let userInput1 = prompt('Are you like dessert ' + user)
-console.log(userInput1);
-alert("you many welocom " + user)
+let userDessertLike = prompt('Are you like dessert ' + userName)
+console.log(userDessertLike);
+alert("you many welocom " + userName)
 
-let userInput = prompt('how many meal do you like to eat ' + user)
-console.log(userInput);
-alert("you many welocom " + user)
+let userManyMeal = prompt('how many meal do you like to eat ' + userName)
+console.log(userManyMeal);
+alert("you many welocom " + userName)
 
 
 
-let userpre = prompt('Do you like cheat meal ' + user)
-console.log(userpre);
+let userCheatMeal = prompt('Do you like cheat meal ' + userName)
+console.log(userCheatMeal);
 alert('enjoy')
 
